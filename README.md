@@ -26,4 +26,3 @@ I try to show the setup, actual results, mistakes, fixes and what I learned. If 
 
 Some details of my network stay private. I'll share safe examples, not passwords or live configurations.
 
-**Build. Break. Detect. Defend. Prove.**
