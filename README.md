@@ -1,28 +1,23 @@
 # ITLLERY
 
-I'm a cybersecurity student building my own home lab. I learn by setting things up, breaking things in a controlled lab, finding out what happened and improving the defense.
+I'm studying cybersecurity and building a lab where I can try things out instead of only reading about them. I use Linux and Windows machines, Proxmox servers and separate systems for monitoring, local AI and security testing.
 
-**I build things. I break things. I learn how to defend them.**
+Some projects work straight away. Others take several attempts, especially when networking or access rules are involved. I keep notes on both because understanding what went wrong is part of the work.
 
-Here I share what I'm working on, what worked, what didn't, and how I fixed it.
+## What I'm working on
 
-## What I work on
+My main project is the [ITLLERY homelab](https://github.com/ITLLERY/itllery-homelab). I use it to work with virtualization, network segmentation, backups and security monitoring. Wazuh and a planned Security Onion sensor are part of that environment.
 
-- **Homelab:** Linux, Windows, Proxmox, networking, backups and hardening.
-- **SOC & detection:** Wazuh, Security Onion, Sysmon, Suricata and investigating real lab events.
-- **Purple team:** controlled testing, detection, investigation and remediation.
-- **Local AI:** running LLMs on my own hardware, including offline setups.
-- **Automation:** scripts and tools that make lab work easier.
+I also run local language models on my own GPUs and test how useful they are for coding and cybersecurity tasks. For security exercises, I use controlled lab systems and look at the events and logs they produce.
 
-## My repositories
+## Repositories
 
-- [Homelab](https://github.com/ITLLERY/itllery-homelab) — architecture, hardware and lab notes.
-- [YouTube resources](https://github.com/ITLLERY/itllery-youtube) — commands and guides from my videos.
-- **Offline AI** — private while I build and test it; public documentation will follow when ready.
+- [Homelab](https://github.com/ITLLERY/itllery-homelab) — my machines, network design, configuration notes and test results.
+- [YouTube resources](https://github.com/ITLLERY/itllery-youtube) — commands and explanations that go with my videos.
+- **Offline AI** — a private work-in-progress where I prepare tests on a Windows laptop. I'll share the parts I finish and verify.
 
-## How I document things
+## About the documentation
 
-I try to show the setup, actual results, mistakes, fixes and what I learned. If I haven't tested something yet, I'll say so.
+I write down what I set up, what I tested and what still needs work. If a system is planned or a result is missing, I say so rather than presenting it as finished.
 
-Some details of my network stay private. I'll share safe examples, not passwords or live configurations.
-
+I use AI tools during research, troubleshooting and writing, but I keep the technical decisions and test results tied to what I actually do in the lab. I also leave private network details and credentials out of the public repositories.
